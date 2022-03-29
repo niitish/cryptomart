@@ -21,15 +21,19 @@ const App = () => {
         <Layout>
           <div className="routes">
             <Routes>
-              <Route exact path="/" element={<HomePage />} />
-              <Route exact path="/exchanges" element={<Exchanges />} />
-              <Route exact path="/cryptos" element={<Cryptos />} />
+              <Route exact path="/cryptomart" element={<HomePage />} />
+              <Route
+                exact
+                path="/cryptomart/exchanges"
+                element={<Exchanges />}
+              />
+              <Route exact path="/cryptomart/cryptos" element={<Cryptos />} />
               <Route
                 exact
                 path="/cryptos/:coinID"
                 element={<CryptoDetails />}
               />
-              <Route exact path="/news" element={<News />} />
+              <Route exact path="/cryptomart/news" element={<News />} />
             </Routes>
           </div>
         </Layout>
@@ -38,10 +42,10 @@ const App = () => {
             © Crypto Mart
           </Typography.Title>
           <Space>
-            <Link to="/">Home</Link>
-            <Link to="/exchanges">Exchanges</Link>
-            <Link to="/cryptos">Cryptocurrencies</Link>
-            <Link to="/news">News</Link>
+            <Link to="/cryptomart">Home</Link>
+            <Link to="/cryptomart/exchanges">Exchanges</Link>
+            <Link to="/cryptomart/cryptos">Cryptocurrencies</Link>
+            <Link to="/cryptomart/news">News</Link>
           </Space>
         </div>
       </div>

@@ -32,7 +32,7 @@ const Header = () => {
       <div className="logo-container">
         <Avatar src={icon} size="large" />
         <Typography.Title level={2} className="logo">
-          <Link to="/">CryptoMart</Link>
+          <Link to="/cryptomart">CryptoMart</Link>
         </Typography.Title>
         <Button
           className="menu-control-container"
@@ -44,16 +44,16 @@ const Header = () => {
       {activeMenu && (
         <Menu theme="dark">
           <Menu.Item icon={<HomeOutlined />}>
-            <Link to="/">Home</Link>
+            <Link to="/cryptomart">Home</Link>
           </Menu.Item>
           <Menu.Item icon={<MoneyCollectOutlined />}>
-            <Link to="/exchanges">Exchanges</Link>
+            <Link to="/cryptomart/exchanges">Exchanges</Link>
           </Menu.Item>
           <Menu.Item icon={<FundOutlined />}>
-            <Link to="/cryptos">Cryptocurrencies</Link>
+            <Link to="/cryptomart/cryptos">Cryptocurrencies</Link>
           </Menu.Item>
           <Menu.Item icon={<BulbOutlined />}>
-            <Link to="/news">News</Link>
+            <Link to="/cryptomart/news">News</Link>
           </Menu.Item>
         </Menu>
       )}
