@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cryptomart/static/css/main.857aea7c.css",
-    "main.js": "/cryptomart/static/js/main.5387dec0.js",
+    "main.js": "/cryptomart/static/js/main.f21103ce.js",
     "static/media/dummynewsimage.jpg": "/cryptomart/static/media/dummynewsimage.a72f00c44bcc8c04ec73.jpg",
     "static/media/logo.png": "/cryptomart/static/media/logo.1548aced3f0605895bac.png",
     "index.html": "/cryptomart/index.html",
     "main.857aea7c.css.map": "/cryptomart/static/css/main.857aea7c.css.map",
-    "main.5387dec0.js.map": "/cryptomart/static/js/main.5387dec0.js.map"
+    "main.f21103ce.js.map": "/cryptomart/static/js/main.f21103ce.js.map"
   },
   "entrypoints": [
     "static/css/main.857aea7c.css",
-    "static/js/main.5387dec0.js"
+    "static/js/main.f21103ce.js"
   ]
 }
