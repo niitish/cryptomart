@@ -34,6 +34,7 @@ const Cryptos = ({ simplified }) => {
           <Col xs={24} sm={12} lg={6} className="crypto-card" key={i}>
             <Link to={`/cryptomart/cryptos/${curr.uuid}`}>
               <Card
+                id={i}
                 title={`${curr.rank}. ${curr.name}`}
                 extra={
                   <img
